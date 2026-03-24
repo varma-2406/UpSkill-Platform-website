@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpSkill - Login / Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">UpSkill</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="register.html" class="active">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="page-banner">
+        <h1>Login / <span>Register</span></h1>
+        <p>Login first. If you don't have an account, create one easily.</p>
+    </div>
+
+    <div class="auth-section">
+        <div class="auth-box">
+
+            <div class="form-container" id="loginContainer">
+                <div class="form-title">Login Here</div>
+
+                <form id="loginForm">
+                    <input type="email" id="loginEmail" placeholder="Enter Email">
+                    <input type="password" id="loginPassword" placeholder="Enter Password">
+                    <button type="submit" class="form-btn">Login</button>
+                </form>
+
+                <p class="switch-text">
+                    Don't have an account?
+                    <span id="showRegister">Register</span>
+                </p>
+            </div>
+
+            <div class="form-container hidden-form" id="registerContainer">
+                <div class="form-title">Register Here</div>
+
+                <form id="registerForm">
+                    <input type="text" id="regName" placeholder="Enter Name">
+                    <input type="email" id="regEmail" placeholder="Enter Email">
+                    <input type="password" id="regPassword" placeholder="Enter Password">
+                    <input type="password" id="regConfirmPassword" placeholder="Confirm Password">
+                    <button type="submit" class="form-btn">Register</button>
+                </form>
+
+                <p class="switch-text">
+                    Already have an account?
+                    <span id="showLogin">Login</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 UpSkill - CBIT E-Learning Platform</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

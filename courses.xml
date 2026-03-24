@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="C101">
+        <title>Full Stack Web Development</title>
+        <instructor>Dr. Ramesh Kumar</instructor>
+        <price>499</price>
+        <rating>4.8</rating>
+        <duration>8 Weeks</duration>
+        <detailsPage>course1-details.html</detailsPage>
+    </course>
+
+    <course id="C102">
+        <title>Python Programming Masterclass</title>
+        <instructor>Prof. Anitha Rao</instructor>
+        <price>399</price>
+        <rating>4.7</rating>
+        <duration>6 Weeks</duration>
+        <detailsPage>course2-details.html</detailsPage>
+    </course>
+
+    <course id="C103">
+        <title>Artificial Intelligence Fundamentals</title>
+        <instructor>Dr. S. Priya</instructor>
+        <price>599</price>
+        <rating>4.9</rating>
+        <duration>10 Weeks</duration>
+        <detailsPage>course3-details.html</detailsPage>
+    </course>
+
+    <course id="C104">
+        <title>Cyber Security Essentials</title>
+        <instructor>Mr. Venkatesh</instructor>
+        <price>449</price>
+        <rating>4.6</rating>
+        <duration>7 Weeks</duration>
+        <detailsPage>course4-details.html</detailsPage>
+    </course>
+</courses>
